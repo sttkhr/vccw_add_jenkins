@@ -8,6 +8,7 @@
 #
 
 yum_package "java-1.8.0-openjdk-devel" do
+  timeout 30
   action :install
 end
 
